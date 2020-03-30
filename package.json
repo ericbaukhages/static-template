@@ -4,8 +4,11 @@
     "develop": "cross-env NODE_ENV=development webpack --config webpack.config.js"
   },
   "devDependencies": {
+    "autoprefixer": "^9.7.5",
     "cross-env": "^7.0.2",
+    "css-loader": "^3.4.2",
     "html-webpack-plugin": "^4.0.3",
+    "postcss-loader": "^3.0.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   }
