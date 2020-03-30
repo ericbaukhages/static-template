@@ -3,6 +3,9 @@
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
     "develop": "cross-env NODE_ENV=development webpack --config webpack.config.js"
   },
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
+  },
   "devDependencies": {
     "autoprefixer": "^9.7.5",
     "cross-env": "^7.0.2",
