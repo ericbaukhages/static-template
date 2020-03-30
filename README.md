@@ -12,6 +12,16 @@ cd <NEW PROJECT>
 rm -rf .git
 git init
 ```
+Then, update the README to just include the below Tool commands.
+
+## Tools
+
+The commands for the tooling are marked out in `package.json`. Here are a few:
+
+- `yarn build`: Build for production
+- `yarn develop`: Build for development
+- `yarn watch`: Watch for changes, and run the development build
+- `yarn serve`: Serve locally on http://localhost:8888, with hot reload of development build
 
 ## Thanks
 
