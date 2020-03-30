@@ -2,7 +2,8 @@
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
     "develop": "cross-env NODE_ENV=development webpack --config webpack.config.js",
-    "watch": "cross-env NODE_ENV=development webpack --watch --config webpack.config.js"
+    "watch": "cross-env NODE_ENV=development webpack --watch --config webpack.config.js",
+    "serve": "webpack-dev-server"
   },
   "dependencies": {
     "tailwindcss": "^1.2.0"
@@ -16,6 +17,7 @@
     "mini-css-extract-plugin": "^0.9.0",
     "postcss-loader": "^3.0.0",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
